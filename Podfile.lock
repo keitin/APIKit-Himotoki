@@ -1,0 +1,47 @@
+PODS:
+  - APIKit (3.1.2):
+    - Result (~> 3.0)
+  - Himotoki (3.0.1)
+  - Result (3.2.1)
+
+DEPENDENCIES:
+  - APIKit (from `https://github.com/ishkawa/APIKit.git`, branch `master`)
+  - Himotoki (from `https://github.com/ikesyo/Himotoki.git`, branch `master`)
+  - Result (from `https://github.com/antitypical/Result.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  APIKit:
+    :branch: master
+    :git: https://github.com/ishkawa/APIKit.git
+    :submodules: true
+  Himotoki:
+    :branch: master
+    :git: https://github.com/ikesyo/Himotoki.git
+    :submodules: true
+  Result:
+    :branch: master
+    :git: https://github.com/antitypical/Result.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  APIKit:
+    :commit: 50482371f4fde349094c98b6ff26535e832af4e8
+    :git: https://github.com/ishkawa/APIKit.git
+    :submodules: true
+  Himotoki:
+    :commit: 26166b07f0eaa052bd685ddb0fc2bf4896c71125
+    :git: https://github.com/ikesyo/Himotoki.git
+    :submodules: true
+  Result:
+    :commit: 79d7442ee89572ee834501944c62260b2ede1d73
+    :git: https://github.com/antitypical/Result.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  APIKit: 923b510c13eb4d977d2d0ffcd51c88e9dfe7a74a
+  Himotoki: 45c6a8bd403939826b91d20769bc41ee55e13575
+  Result: fdbe9a002a86acb92d9a66976ece409da8e86513
+
+PODFILE CHECKSUM: cf45e173e495d6fe34e335e26c8a3c7f7a156f85
+
+COCOAPODS: 1.1.0
