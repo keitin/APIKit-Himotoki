@@ -101,9 +101,9 @@
 				32F927561E8BA27200A05959 /* CocoapodsGem */,
 				32F9276B1E8BA27200A05959 /* CocoapodsGemTests */,
 				32F927761E8BA27200A05959 /* CocoapodsGemUITests */,
-				32F927551E8BA27200A05959 /* Products */,
-				F41C05F667E44F8D9E7E12B6 /* Pods */,
 				6062ECE338193F5DC2924B27 /* Frameworks */,
+				F41C05F667E44F8D9E7E12B6 /* Pods */,
+				32F927551E8BA27200A05959 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,13 +120,13 @@
 		32F927561E8BA27200A05959 /* CocoapodsGem */ = {
 			isa = PBXGroup;
 			children = (
-				32F927571E8BA27200A05959 /* AppDelegate.swift */,
-				32F927591E8BA27200A05959 /* ViewController.swift */,
 				32F927891E8BA99200A05959 /* APIs */,
-				32F9275B1E8BA27200A05959 /* Main.storyboard */,
+				32F927571E8BA27200A05959 /* AppDelegate.swift */,
 				32F9275E1E8BA27200A05959 /* Assets.xcassets */,
-				32F927601E8BA27200A05959 /* LaunchScreen.storyboard */,
 				32F927631E8BA27200A05959 /* Info.plist */,
+				32F927601E8BA27200A05959 /* LaunchScreen.storyboard */,
+				32F9275B1E8BA27200A05959 /* Main.storyboard */,
+				32F927591E8BA27200A05959 /* ViewController.swift */,
 			);
 			path = CocoapodsGem;
 			sourceTree = "<group>";
@@ -157,6 +157,7 @@
 				32F927871E8BA93A00A05959 /* SearchRepositoryRequest.swift */,
 			);
 			name = APIs;
+			path = APIs;
 			sourceTree = "<group>";
 		};
 		6062ECE338193F5DC2924B27 /* Frameworks */ = {
@@ -512,6 +513,7 @@
 				32F9275C1E8BA27200A05959 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		32F927601E8BA27200A05959 /* LaunchScreen.storyboard */ = {
@@ -520,6 +522,7 @@
 				32F927611E8BA27200A05959 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
