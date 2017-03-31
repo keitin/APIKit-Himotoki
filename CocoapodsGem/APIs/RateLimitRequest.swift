@@ -21,7 +21,6 @@ struct RateLimitRequest: GithubRequest {
     var path: String {
         return "/rate_limit"
     }
-
 }
 
 struct RateLimit: Decodable {
@@ -36,5 +35,4 @@ struct RateLimit: Decodable {
             remaining: e <| ["rate", "remaining"]
         )
     }
-    
 }
