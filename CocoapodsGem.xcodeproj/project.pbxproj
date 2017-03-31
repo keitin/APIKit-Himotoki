@@ -156,7 +156,6 @@
 				32F927851E8BA6A900A05959 /* RateLimitRequest.swift */,
 				32F927871E8BA93A00A05959 /* SearchRepositoryRequest.swift */,
 			);
-			name = APIs;
 			path = APIs;
 			sourceTree = "<group>";
 		};
